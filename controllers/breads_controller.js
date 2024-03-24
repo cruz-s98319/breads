@@ -7,6 +7,7 @@ breads.get('/', (req, res) => {
     res.render('Index',
         {
             breads: Bread
+            title: 'Index Page'
         }
     )
 })
